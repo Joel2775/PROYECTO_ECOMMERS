@@ -295,21 +295,27 @@ form a{
     text-align: center;
 }
 
-.carritos{
+.footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 800px;
-    height: 400px;
-    border: 1px solid #cdcdcd;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(135, 135, 135);
+    padding: 2rem 0 0 0rem;
+    color: #fff;
+    justify-content: space-evenly;
+    gap: 10px 10px;
 }
 
+.footer ul{
+    list-style: none;
+    padding: 0;
+}
 
-
-
-
-
-
-
+.derechos-a{
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid rgba(0, 168, 168, 1);
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
