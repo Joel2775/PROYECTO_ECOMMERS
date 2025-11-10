@@ -145,8 +145,12 @@ main img{
     text-align: center;
     border: 1px solid #cdcdcd;
     border-radius: 20px;
-    box-shadow: 0px 3px 4px #a1a1a1;
     margin-bottom: 20px;
+}
+
+.producto:hover{
+    cursor: pointer;
+    box-shadow: 0 3px 4px #a1a1a1
 }
 
 .producto img{
@@ -571,3 +575,4 @@ form a{
         padding: 10px 0;
     }
 }
+
